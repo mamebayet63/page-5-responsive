@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block{
+    height: 350px;
+    width: 900px;
+    margin: 0 auto;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.block1{
+    width: 45%;
+    height: 80%;
+    border: 2px solid white;
+}
+.block2{
+    width: 45%;
+    height: 80%;
+    border: 2px solid white;
+}
+@media screen and (max-width: 968px) {
+    .block {
+      width: 50%;
+      padding: 10px;
+      background-color: aqua;
+      display: flex;
+      flex-direction: column;
+    }
+    .block1{
+        width: 85%;
+        height: 40%;
+        border: 2px solid white;
+    }
+    .block2{
+        width: 85%;
+        height: 50%;
+        border: 2px solid white;
+    }
+  }
